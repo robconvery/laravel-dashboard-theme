@@ -1,0 +1,42 @@
+{
+    "name": "robonvery/laravel-dashboard-theme",
+    "description": "Dashboard theme",
+    "authors": [
+        {
+            "name": "Robert Convery",
+            "email": "robconvery@me.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "orchestra/testbench": "^3.0",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Robconvery\\LaravelDashboardTheme": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Robconvery\\LaravelDashboardTheme\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "cs": [
+            "./vendor/bin/phpcs --standard=PSR2 src"
+        ],
+        "cs-fix": [
+            "./vendor/bin/phpcbf --standard=PSR2 src"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Robconvery\\LaravelDashboardTheme\\PackageServiceProvider"
+            ]
+        }
+    }
+
+}
