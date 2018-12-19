@@ -21,7 +21,9 @@ class PackageServiceProvider extends ServiceProvider
             // publish sass
             dirname(__DIR__) . '/assets/sass' => resource_path('sass/dashboard'),
             // publish js
-            dirname(__DIR__) . '/assets/js' => resource_path('js/dashboard')
+            dirname(__DIR__) . '/assets/js' => resource_path('js/dashboard'),
+            // publish vendor assets
+            dirname(__DIR__) . '/assets/vendor' => resource_path('assets/vendor')
         ], 'dashboard');
     }
 
