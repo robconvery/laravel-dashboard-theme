@@ -19,11 +19,6 @@
             "Robconvery\\LaravelDashboardTheme\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Robconvery\\LaravelDashboardTheme\\Tests\\": "tests/"
-        }
-    },
     "scripts": {
         "cs": [
             "./vendor/bin/phpcs --standard=PSR2 src"
