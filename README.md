@@ -39,6 +39,8 @@ Add the following to `resources/sass/app.scss`
 @import "vendor/font-awesome/regular";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/v4-shims";
+
+@import "dashboard/dashboard";
 ```
 
 Amend `webpack.mix.js`, adding the two bottom lines
