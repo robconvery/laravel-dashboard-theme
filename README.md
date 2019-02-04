@@ -1,7 +1,12 @@
 # laravel-dashboard-theme
-Dashboard theme as Laravel package 
+Dashboard theme as Laravel package
 
-##Install
+## Prerequisites
+* An existing Laravel app
+* Font-awesome installed and configured
+* Existing Laravel routing should contain routes with names `home` & `logout` 
+
+## Install
 Add the following to <code>composer.json</code>
 
 Create a `repositories` section
