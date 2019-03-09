@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- styles -->
-    <link href="/css/app.css" rel="stylesheet" type="text/css">
+    <link href="{{ mix('/css/app.css') }}" rel="stylesheet" type="text/css">
     @yield('css')
 
     @yield('head-js')
@@ -85,7 +85,7 @@
     @yield('content')
 </div>
 
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ mix('js/app.js') }}"></script>
 
 @yield('js')
 

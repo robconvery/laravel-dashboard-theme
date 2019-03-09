@@ -9,7 +9,7 @@
     <title>@yield('title')</title>
 
     <!-- styles -->
-    <link href="/css/admin.css" rel="stylesheet" type="text/css">
+    <link href="{{ mix('/css/admin.css') }}" rel="stylesheet" type="text/css">
 
     @yield('css')
 
@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
 
 @yield('js')
 
