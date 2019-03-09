@@ -55,6 +55,11 @@ mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
    .copy('resources/assets/dashboard', 'public/images')
    .copy('resources/sass/vendor/webfonts', 'public/webfonts');
+   
+if (mix.inProduction()) {
+    mix.version();
+}
+      
 ```
 
 Run `npm run dev` or `npm run production`
