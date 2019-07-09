@@ -4,7 +4,58 @@ Dashboard theme as Laravel package
 ## Prerequisites
 * An existing Laravel app
 * Font-awesome installed and configured
-* Existing Laravel routing should contain routes with names `home` & `logout` 
+* Existing Laravel routing should contain routes with names `home` & `logout`
+
+### Installing font awesome
+
+Download from the font awesome website. https://fontawesome.com/download
+
+Create the following folder and add the fontawesome files `resources/assets/vendor`
+
+Create the following folder structures containing the following files.
+
+`resources/assets/vendor/font-awesome`
+ 
+ ```$xslt
+_animated.scss
+_bordered-pulled.scss
+_core.scss
+_fixed-width.scss
+_icons.scss
+_larger.scss
+_list.scss
+_mixins.scss
+_rotated-flipped.scss
+_screen-reader.scss
+_shims.scss
+_stacked.scss
+_variables.scss
+brands.scss
+fontawesome.scss
+regular.scss
+solid.scss
+v4-shims.scss
+```
+
+`resources/assets/vendor/webfonts`
+
+```$xslt
+fa-brands-400.eot
+fa-brands-400.svg
+fa-brands-400.ttf
+fa-brands-400.woff
+fa-brands-400.woff2
+fa-regular-400.eot
+fa-regular-400.svg
+fa-regular-400.ttf
+fa-regular-400.woff
+fa-regular-400.woff2
+fa-solid-900.eot
+fa-solid-900.svg
+fa-solid-900.ttf
+fa-solid-900.woff
+fa-solid-900.woff2
+```     
 
 ## Install
 Add the following to <code>composer.json</code>
@@ -63,3 +114,5 @@ if (mix.inProduction()) {
 ```
 
 Run `npm run dev` or `npm run production`
+
+
